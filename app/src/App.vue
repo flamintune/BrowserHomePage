@@ -1,17 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    <Time/>
+    <Search/>
+    <QuickLink/>
+    <Setting/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Time from './components/Time.vue'
+import Search from './components/Search.vue'
+import QuickLink from './components/QuickLink.vue'
+import Setting from './components/Setting.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Time,Search,QuickLink,Setting
   }
 }
 </script>
